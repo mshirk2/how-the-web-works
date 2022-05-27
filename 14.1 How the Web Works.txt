@@ -1,0 +1,17 @@
+1. HTTP stands for HyperText Transfer Protocol. It defines the standards of communication and formatting used by the World Wide Web.
+
+2. URL stands for Uniform Resource Locator. It’s a web address used to locate a web page.
+
+3. DNS stands for Domain Name System. It’s a reference of domain names and their corresponding IP addresses.
+
+4. A query string is an element of a URL, and adds specificity to the address being called. It may directly load specific content in the URL path, or it may store the values of an HTML form submission.
+
+5. GET retrieves data and content for a web page. POST sends data to be uploaded to the webpage.
+
+6. This is made from a computer to a server. It’s a request for content/data.
+
+7. A response from a server to the computer that placed a request. It could be the content requested, and/or status information and response code (404, 200, etc)
+
+8. HTTP header is additional information sent along with the request/response. It could includes things like authentication, cache information, date/time, language, etc.
+
+9. The browser checks to see if it has the corresponding IP address or content stored in the cache. If not, it sends a request up the hierarchy of the DNS until it finds the IP address for the URL. Then it sends a GET request to that IP to retrieve the data/content of the webpage, loads it, and stores it in the cache.
